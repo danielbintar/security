@@ -12,5 +12,9 @@ echo $_COOKIE['name'];
 	<input type="submit" value="Login">
 </form>
 
+<form method="POST" action="/original_logout.php">
+	<input type="submit" value="Logout">
+</form>
+
 </body>
 </html>
